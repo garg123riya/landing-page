@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.nav{
+
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./img/wallhaven-0j5wmp_1920x1080.png) no-repeat center center/cover;
+    height: 70vh;
+    width: 100%;
+    z-index: -10;
+}
+.nav-up{
+    padding-top: 20px;
+text-align: center;
+font-size: x-large;
+font-weight: bolder;
+
+}
+.nav-up h2{
+    
+
+color: rgb(207, 255, 15);
+}
+.nav-dwn ul{
+
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    
+
+}
+.nav-dwn ul li{
+    list-style: none;
+    padding: 40px;
+}
+.nav-dwn ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.509);
+    border: 2px  solid white;
+    border-radius: 30%;
+}
+.nav-dwn ul li a{
+    margin: 9px;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.para{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    z-index: 1000;
+}
+.img1{
+    height: 250px;
+    width: 250PX;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+img{
+    height: 210px;
+    width: 210px;
+}
+.container{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    padding: 3%;
+    background: linear-gradient(rgba(3, 130, 159, 0.781),rgb(1, 56, 79));
+
+}
+.cont1,.cont2,.cont3,.cont4{
+    height: 70vh;
+    width: 30%;
+    /* background-color: aqua; */
+    margin: 30px;
+    
+}
+
+.section{
+    padding: 5%;
+    
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.847),rgba(0, 0, 0, 0.806)), url(./img/wallhaven-nkww96_1920x1080.png) no-repeat center center/cover;
+}
+
+.sec1{
+
+    height: 70vh;
+    width: 50%;
+    margin-right: 40px;
+    background: url(./img/wallhaven-4x98od_1920x1080.png) no-repeat center center/cover;
+    border: 3px solid white;
+    border-radius: 7%;
+}
+.sec2{
+    
+    height: 70vh;
+    width: 50%;
+    margin-left: 40px;
+    background:  url(./img/wallhaven-8o5xe1_1920x1080.png) no-repeat center center/cover;
+    border: 3px solid white;
+    border-radius: 7%;
+}
+.foot{
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(233, 253, 253, 0.977);
+    
+}
+.foot div{
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+}
